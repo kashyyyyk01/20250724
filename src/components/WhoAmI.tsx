@@ -25,7 +25,7 @@ const WhoAmI = () => {
           <img 
             src="/Images/Micha photo profil.jpeg" 
             alt="Michael Matsos" 
-            className="float-left w-48 h-48 md:w-56 md:h-56 object-cover rounded-2xl shadow-lg mr-6 mb-4"
+            className="float-left w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-lg mr-6 mb-4"
           />
 
           <p className="mb-4">
@@ -40,10 +40,7 @@ const WhoAmI = () => {
           </p>
           
           <p className="mb-4">
-            C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.)
-          </p>
-          <p className="mb-4">
-            Comment ça fonctionne, tout ça ? Quels sont nos outils pour mieux naviguer dans notre monde intérieur ? Pour comprendre notre psyché, nos émotions ? Quel est le sens de tout ce bordel ?
+            C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? Quels sont nos outils pour mieux naviguer dans notre monde intérieur ? Pour comprendre notre psyché, nos émotions ? Quel est le sens de tout ce bordel ?
           </p>
           
           <p className="mb-4 font-semibold">
