@@ -127,11 +127,15 @@ const WhoAmI = () => {
 
           {/* Pourquoi il fait ça */}
           <motion.div
-            </p>
-              J'aide les gens à se retrouver — et eux, sans le savoir, m\'aident à affiner ma propre quête.
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            className="space-y-4"
+          >
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed font-semibold">
+              Et pourquoi je fais ça ?
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
-              Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. 
               Parce qu'accompagner quelqu'un, c'est plus qu'un service : c'est une rencontre d'âme à âme.
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
@@ -141,17 +145,33 @@ const WhoAmI = () => {
               J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
-              Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. C'est un cercle vivant, pas une hiérarchie.
+              Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. 
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl"
+          </motion.div>
+            <p className="text-2xl md:text-3xl font-bold text-stone-800 leading-relaxed">
+          {/* Conclusion/invitation */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.9 }}
+            className="bg-stone-800 text-white rounded-xl p-6"
+          >
+            <p className="text-lg md:text-xl leading-relaxed mb-4">
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="space-y-3"
             </p>
-            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
+            <p className="text-lg md:text-xl leading-relaxed font-semibold">
               Je ne suis pas là pour te changer. Juste pour t'aider à te retrouver.
             </p>
-          </motion.div>
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
         </div>
       </div>
-    </section>
-  )
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed font-semibold">
+        <div className="max-w-5xl mx-auto space-y-6">
   );
 };
 
 export default WhoAmI;
+  )
+}
