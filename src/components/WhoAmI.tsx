@@ -137,6 +137,7 @@ const WhoAmI = () => {
         </div>
       </div>
     </section>
+  )
   );
 };
 
