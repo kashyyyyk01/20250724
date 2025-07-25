@@ -80,11 +80,6 @@ const WhoAmI = () => {
             J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
             Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. C'est un cercle vivant, pas une hiérarchie.
           </p>
-
-          <p className="font-medium text-stone-800">
-            Si tu sens que quelque chose t'appelle, t'étrangle ou te pousse à aller voir derrière le décor, peut-être qu'on a un bout de chemin à faire ensemble.
-            Je ne suis pas là pour te changer. Juste pour t'aider à te retrouver.
-          </p>
         </motion.div>
       </div>
     </section>
