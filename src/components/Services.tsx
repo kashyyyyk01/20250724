@@ -8,7 +8,7 @@ const services = [
     title: 'Transformer son royaume intérieur',
     description: [
       { text: 'Débloquer', bold: true, rest: ' ce nœud qui se répète encore et encore' },
-      { text: 'Remettre à leur place', bold: true, rest: ' notre **juge intérieur** et l'**auto-saboteur**, qui nous font vivre un véritable enfer !' },
+      { text: 'Remettre à leur place', bold: true, rest: ' notre **juge intérieur** et l\'**auto-saboteur**, qui nous font vivre un véritable enfer !' },
       { text: 'Libérer et purifier', bold: true, rest: ' notre ego, sans le rejeter' },
       { text: 'Assainir', bold: true, rest: ' ce mental qui alourdit notre quotidien inutilement' }
     ],
