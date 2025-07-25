@@ -24,8 +24,12 @@ const WhoAmI = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <div className="bg-gradient-to-br from-amber-400 to-orange-500 rounded-2xl w-64 h-64 mx-auto flex items-center justify-center">
-              <User className="text-white" size={120} />
+            <div className="w-64 h-64 mx-auto">
+              <img 
+                src="/Images/Micha photo profil.jpeg" 
+                alt="Michael Matsos" 
+                className="w-full h-full object-cover rounded-2xl shadow-lg"
+              />
             </div>
             
             <div className="bg-stone-50 rounded-xl p-6">
@@ -69,35 +73,6 @@ const WhoAmI = () => {
             </p>
           </motion.div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8"
-        >
-          <div className="bg-stone-50 rounded-2xl p-8">
-            <div className="flex items-center mb-4">
-              <Heart className="text-amber-600 mr-3" size={24} />
-              <h3 className="text-xl font-semibold text-stone-800">Ma philosophie</h3>
-            </div>
-            <p className="text-stone-700 leading-relaxed">
-              Le plus facile pour se libérer est de comprendre pourquoi on peut se l'autoriser soi-même, 
-              plutôt que de chercher une approbation extérieure.
-            </p>
-          </div>
-
-          <div className="bg-stone-50 rounded-2xl p-8">
-            <div className="flex items-center mb-4">
-              <Compass className="text-amber-600 mr-3" size={24} />
-              <h3 className="text-xl font-semibold text-stone-800">Ma conviction</h3>
-            </div>
-            <p className="text-stone-700 leading-relaxed">
-              La richesse, ce sont les autres. C'est en rencontrant l'autre, en s'intéressant à son vécu 
-              avec authenticité qu'on apprend à se connaître.
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
