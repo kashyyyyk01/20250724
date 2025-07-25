@@ -128,16 +128,28 @@ const WhoAmI = () => {
           {/* Pourquoi il fait ça */}
           <motion.div
             </p>
-            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
               J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
               Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. 
-            transition={{ duration: 0.8, delay: 0.3 }}
+              Parce qu'accompagner quelqu'un, c'est plus qu'un service : c'est une rencontre d'âme à âme.
+            </p>
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
+              Un moment rare, sincère, où on arrête de jouer des rôles.
+            </p>
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
+              J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
+            </p>
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
+              Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. C'est un cercle vivant, pas une hiérarchie.
+            </p>
+            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
+              Je ne suis pas là pour te changer. Juste pour t'aider à te retrouver.
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>
-  )
   );
 };
 
