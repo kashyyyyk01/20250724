@@ -8,7 +8,7 @@ const services = [
     title: 'Transformer son royaume intérieur',
     description: [
       { text: 'Débloquer', bold: true, rest: ' ce nœud qui se répète encore et encore' },
-      { text: 'Remettre à sa place', bold: true, rest: ' ce juge intérieur infatigable qui nous fait vivre un véritable enfer' },
+      { text: 'Remettre à leur place', bold: true, rest: ' notre **juge intérieur** et l'**auto-saboteur**, qui nous font vivre un véritable enfer !' },
       { text: 'Libérer et purifier', bold: true, rest: ' notre ego, sans le rejeter' },
       { text: 'Assainir', bold: true, rest: ' ce mental qui alourdit notre quotidien inutilement' }
     ],
@@ -20,9 +20,9 @@ const services = [
     title: 'Affirmation de soi',
     description: 'Trouvons ensemble les clés dont vous avez besoin pour:',
     bulletPoints: [
-      'vous libérer du regard des autres',
-      'ne plus être dans la retenue',
-      'vous sentir pleinement à votre place'
+      'vous libérer du **regard des autres**',
+      '**oser être soi**, sans retenue',
+      'vous sentir pleinement **à votre place**'
     ],
     additionalText: 'Marchez librement sur votre chemin !',
     color: 'from-blue-400 to-indigo-500'
@@ -115,7 +115,7 @@ const Services = () => {
                    {service.bulletPoints.map((point, idx) => (
                      <div key={idx} className="flex items-start space-x-2">
                        <span className="text-amber-600 mt-1">→</span>
-                       <p className="text-stone-600 leading-relaxed">{point}</p>
+                       <p className="text-stone-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: point.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></p>
                      </div>
                    ))}
                  </div>
