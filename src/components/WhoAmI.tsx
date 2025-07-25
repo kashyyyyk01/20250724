@@ -76,10 +76,6 @@ const WhoAmI = () => {
           <p className="mb-4">
             Un moment rare, sincère, où on arrête de jouer des rôles.
           </p>
-          <p className="mb-6">
-            J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
-            Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. C'est un cercle vivant, pas une hiérarchie.
-          </p>
         </motion.div>
       </div>
     </section>
