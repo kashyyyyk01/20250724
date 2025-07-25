@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const WhoAmI = () => {
   return (
-    <section id="qui-suis-je" className="py-8 bg-white">
+    <section id="qui-suis-je" className="py-8" style={{ backgroundColor: 'rgb(250, 243, 224)' }}>
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
