@@ -35,22 +35,19 @@ const WhoAmI = () => {
             Mon boulot, c'est d'aider les gens à se libérer de ce qui les bloque, à se reconnecter à eux, à l'essentiel. Mais à vrai dire… c'est plus qu'un boulot. C'est une quête.
           </p>
           
-          <p className="mb-4 text-xl font-bold text-amber-700">
-            Tu t'es déjà demandé ce qu'on fout ici ?
+          <p className="mb-4">
+            <span className="text-xl font-bold text-amber-700">Tu t'es déjà demandé ce qu'on fout sur cette terre ?</span>
           </p>
           
           <p className="mb-4">
-            C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? Quels sont nos outils pour mieux naviguer dans notre monde intérieur ? Pour comprendre notre psyché, nos émotions ? Quel est le sens de tout ce bordel ?
+            Moi oui. Trop souvent. C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? On m'a appris le théorème de Pythagore à l'école, mais pas à maitriser mes émotions, à intégrer mes parts d'ombres, à maitriser mon auto-saboteur et mon mental.
           </p>
           
           <p className="mb-4 font-semibold">
             J'ai passé des années à chercher des réponses.
           </p>
           <p className="mb-4">
-            À explorer la psychologie moderne, les traditions spirituelles, la philo, les états de conscience modifiés.
-          </p>
-          <p className="mb-4">
-            J'ai médité, prié, transpiré. Et pris pas mal de psychédéliques aussi. Parce que parfois, pour comprendre l'intérieur, il faut oser sortir des sentiers battus.
+            À explorer la psychologie moderne, les traditions spirituelles, la philo, les états de conscience modifiés. J'ai médité, expérimenté, rencontré pas mal de gens de tous horizons. Et pris pas mal de psychédéliques aussi. Parce que parfois, pour comprendre l'intérieur, il faut oser sortir des sentiers battus.
           </p>
           <p className="mb-6 font-medium text-amber-700">
             Et surtout : j'ai testé sur moi. Parce que j'en avais besoin. Parce que la vie m'a donné pas mal de défis intérieurs à apprivoiser.
@@ -62,8 +59,12 @@ const WhoAmI = () => {
           <p className="mb-4">
             Mais au fond, ce n'est pas en devenant quelqu'un qu'on se libère.
           </p>
-          <p className="mb-6 text-xl font-semibold text-amber-700">
-            C'est en osant être pleinement soi, dans ses ombres comme dans sa lumière.
+          <p className="mb-4">
+            C'est en osant être pleinement soi, et en s'acceptant, avec ses défauts (même les vilains). Parce que non, on a pas été créé parfait et probablement qu'on ne le sera jamais.
+          </p>
+          
+          <p className="mb-6 font-medium text-amber-700">
+            Mais la clé, c'est de comprendre qu'on a pas besoin de l'être. On doit pas attendre d'arriver quelque part pour commencer à s'aimer.
           </p>
 
           <p className="mb-4 font-semibold">
@@ -75,17 +76,13 @@ const WhoAmI = () => {
           <p className="mb-4">
             Un moment rare, sincère, où on arrête de jouer des rôles.
           </p>
-          <p className="mb-4">
-            J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
-          </p>
           <p className="mb-6">
+            J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
             Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. C'est un cercle vivant, pas une hiérarchie.
           </p>
 
-          <p className="mb-4">
-            Si tu sens que quelque chose t'appelle, t'étrangle ou te pousse à aller voir derrière le décor, peut-être qu'on a un bout de chemin à faire ensemble.
-          </p>
           <p className="font-medium text-stone-800">
+            Si tu sens que quelque chose t'appelle, t'étrangle ou te pousse à aller voir derrière le décor, peut-être qu'on a un bout de chemin à faire ensemble.
             Je ne suis pas là pour te changer. Juste pour t'aider à te retrouver.
           </p>
         </motion.div>
