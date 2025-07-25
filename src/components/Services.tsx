@@ -81,8 +81,7 @@ const Services = () => {
                      <p className="text-stone-600 leading-relaxed">
                        {item.bold && <strong>{item.text}</strong>}
                        {!item.bold && item.text}
-                       {item.boldRest && <strong>{item.rest}</strong>}
-                       {!item.boldRest && item.rest}
+                       <span dangerouslySetInnerHTML={{ __html: item.rest.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></span>
                        {item.end}
                      </p>
                     </div>
@@ -96,8 +95,7 @@ const Services = () => {
                      <p className="text-stone-600 leading-relaxed">
                        {item.bold && <strong>{item.text}</strong>}
                        {!item.bold && item.text}
-                       {item.boldRest && <strong>{item.rest}</strong>}
-                       {!item.boldRest && item.rest}
+                       <span dangerouslySetInnerHTML={{ __html: item.rest.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></span>
                        {item.end}
                      </p>
                     </div>

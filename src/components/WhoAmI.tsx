@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Heart, Compass } from 'lucide-react';
 
 const WhoAmI = () => {
   return (
