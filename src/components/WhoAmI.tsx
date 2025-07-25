@@ -127,19 +127,6 @@ const WhoAmI = () => {
 
           {/* Pourquoi il fait ça */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            className="space-y-4"
-          >
-            <p className="text-lg md:text-xl text-stone-700 leading-relaxed font-semibold">
-              Et pourquoi je fais ça ?
-            </p>
-            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
-              Parce qu'accompagner quelqu'un, c'est plus qu'un service : c'est une rencontre d'âme à âme.
-            </p>
-            <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
-              Un moment rare, sincère, où on arrête de jouer des rôles.
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
               J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
