@@ -128,7 +128,7 @@ const WhoAmI = () => {
           {/* Pourquoi il fait ça */}
           <motion.div
             </p>
-              J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
+              J'aide les gens à se retrouver — et eux, sans le savoir, m\'aident à affiner ma propre quête.
             </p>
             <p className="text-lg md:text-xl text-stone-700 leading-relaxed">
               Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. 
@@ -150,6 +150,7 @@ const WhoAmI = () => {
         </div>
       </div>
     </section>
+  )
   );
 };
 
