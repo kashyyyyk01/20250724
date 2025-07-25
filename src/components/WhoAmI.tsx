@@ -46,31 +46,102 @@ const WhoAmI = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
-            <p className="text-lg text-stone-700 leading-relaxed">
-              Je suis <strong>Michael Matsos</strong>, conseiller psycho-spirituel, spécialisé dans la libération 
-              des croyances limitantes et des blocages émotionnels.
-            </p>
+            {/* Question d'accroche */}
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl">
+              <p className="text-2xl font-bold text-stone-800 leading-relaxed">
+                Tu t'es déjà demandé ce qu'on fout ici ?
+              </p>
+            </div>
             
-            <p className="text-lg text-stone-700 leading-relaxed">
-              Depuis toujours, je suis passionné par l'être humain et sa place dans l'univers — de la psychologie 
-              aux traditions spirituelles anciennes (bouddhisme, alchimie, yoga, traditions toltèques…) en passant 
-              par la philosophie (stoïcisme, sens de la vie…).
-            </p>
+            {/* Questions existentielles */}
+            <div className="space-y-3">
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Pourquoi on tourne en boucle dans les mêmes galères ?
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Pourquoi on a parfois l'impression de rater sa vie, ou de ne pas vivre la sienne ?
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed font-medium">
+                Moi oui. Trop souvent. Ça m'a travaillé, rongé, éveillé.
+              </p>
+            </div>
 
-            <p className="text-lg text-stone-700 leading-relaxed">
-              J'ai connu mon lot de défis à relever et plusieurs phases de transformation intérieures. 
-              Tout le monde a ses faiblesses et défauts, mais cela ne tient qu'à nous de les transformer en force.
-            </p>
+            {/* Présentation */}
+            <div className="bg-stone-50 rounded-xl p-6">
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Je suis <strong>Michael Matsos</strong>, guide en évolution intérieure.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed mt-3">
+                Mon boulot, c'est d'aider les gens à se libérer de ce qui les bloque à l'intérieur : 
+                croyances limitantes, nœuds émotionnels, schémas inconscients.
+              </p>
+            </div>
 
-            <p className="text-lg text-stone-700 leading-relaxed">
-              Longtemps, j'ai cru qu'il fallait mériter sa place pour se sentir légitime. Être drôle, intelligent, utile… 
-              comme si la confiance en soi se gagnait à coups de performances, d'approbations ou de diplômes invisibles.
-            </p>
+            {/* La quête personnelle */}
+            <div className="space-y-4">
+              <p className="text-lg text-stone-700 leading-relaxed">
+                <strong>Mais à vrai dire… c'est plus qu'un boulot. C'est une quête.</strong>
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                J'ai passé des années à chercher des réponses.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                À explorer la psychologie moderne, les traditions spirituelles, la philo, les états de conscience modifiés.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                J'ai médité, prié, transpiré. Et pris pas mal de psychédéliques aussi. Parce que parfois, 
+                pour comprendre l'intérieur, il faut oser sortir des sentiers battus.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed font-medium text-amber-700">
+                Et surtout : j'ai testé sur moi. Parce que j'en avais besoin. Parce que la vie m'a donné 
+                pas mal de défis intérieurs à apprivoiser.
+              </p>
+            </div>
 
-            <p className="text-lg text-stone-700 leading-relaxed font-medium text-amber-700">
-              J'ai fini par comprendre que ce n'est pas en "devenant quelqu'un" qu'on se libère, mais en osant être soi, 
-              tout simplement.
-            </p>
+            {/* Réalisation personnelle */}
+            <div className="bg-gradient-to-r from-amber-50 to-stone-50 rounded-xl p-6 border border-amber-200">
+              <p className="text-lg text-stone-700 leading-relaxed mb-3">
+                Longtemps, j'ai cru qu'il fallait mériter sa place. Être drôle, intelligent, utile — 
+                comme si on devait gagner sa légitimité à coups de performances ou de diplômes invisibles.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed mb-3">
+                Mais au fond, ce n'est pas en devenant quelqu'un qu'on se libère.
+              </p>
+              <p className="text-xl font-semibold text-amber-700">
+                C'est en osant être pleinement soi, dans ses ombres comme dans sa lumière.
+              </p>
+            </div>
+
+            {/* Pourquoi il fait ça */}
+            <div className="space-y-4">
+              <p className="text-lg text-stone-700 leading-relaxed font-semibold">
+                Et pourquoi je fais ça ?
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Parce qu'accompagner quelqu'un, c'est plus qu'un service : c'est une rencontre d'âme à âme.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Un moment rare, sincère, où on arrête de jouer des rôles.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                J'aide les gens à se retrouver — et eux, sans le savoir, m'aident à affiner ma propre quête.
+              </p>
+              <p className="text-lg text-stone-700 leading-relaxed">
+                Chaque séance m'en apprend un peu plus sur moi, sur l'humain, sur la vie. 
+                C'est un cercle vivant, pas une hiérarchie.
+              </p>
+            </div>
+
+            {/* Conclusion/invitation */}
+            <div className="bg-stone-800 text-white rounded-xl p-6">
+              <p className="text-lg leading-relaxed mb-3">
+                Si tu sens que quelque chose t'appelle, t'étrangle ou te pousse à aller voir derrière le décor, 
+                peut-être qu'on a un bout de chemin à faire ensemble.
+              </p>
+              <p className="text-lg leading-relaxed font-medium">
+                Je ne suis pas là pour te changer. Juste pour t'aider à te retrouver.
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>
