@@ -22,21 +22,14 @@ const WhoAmI = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="order-2 lg:order-1"
           >
-            <div className="w-64 h-64 mx-auto">
+            <div className="w-80 h-80 mx-auto mb-8">
               <img 
                 src="/Images/Micha photo profil.jpeg" 
                 alt="Michael Matsos" 
                 className="w-full h-full object-cover rounded-2xl shadow-lg"
               />
-            </div>
-            
-            <div className="bg-stone-50 rounded-xl p-6">
-              <p className="text-lg text-stone-700 leading-relaxed italic">
-                "Je n'ai pas la prétention d'avoir « réussi ma vie » ni de pouvoir te dire comment gérer la tienne. 
-                J'ai trébuché, souvent, et je trébucherai encore."
-              </p>
             </div>
           </motion.div>
 
@@ -44,7 +37,7 @@ const WhoAmI = () => {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-6"
+            className="order-1 lg:order-2 space-y-6"
           >
             {/* Question d'accroche */}
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl">
@@ -54,7 +47,7 @@ const WhoAmI = () => {
             </div>
             
             {/* Questions existentielles */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <p className="text-lg text-stone-700 leading-relaxed">
                 Pourquoi on tourne en boucle dans les mêmes galères ?
               </p>
@@ -78,7 +71,7 @@ const WhoAmI = () => {
             </div>
 
             {/* La quête personnelle */}
-            <div className="space-y-4">
+            <div className="space-y-3">
               <p className="text-lg text-stone-700 leading-relaxed">
                 <strong>Mais à vrai dire… c'est plus qu'un boulot. C'est une quête.</strong>
               </p>
@@ -100,11 +93,11 @@ const WhoAmI = () => {
 
             {/* Réalisation personnelle */}
             <div className="bg-gradient-to-r from-amber-50 to-stone-50 rounded-xl p-6 border border-amber-200">
-              <p className="text-lg text-stone-700 leading-relaxed mb-3">
+              <p className="text-lg text-stone-700 leading-relaxed mb-2">
                 Longtemps, j'ai cru qu'il fallait mériter sa place. Être drôle, intelligent, utile — 
                 comme si on devait gagner sa légitimité à coups de performances ou de diplômes invisibles.
               </p>
-              <p className="text-lg text-stone-700 leading-relaxed mb-3">
+              <p className="text-lg text-stone-700 leading-relaxed mb-2">
                 Mais au fond, ce n'est pas en devenant quelqu'un qu'on se libère.
               </p>
               <p className="text-xl font-semibold text-amber-700">
@@ -113,7 +106,7 @@ const WhoAmI = () => {
             </div>
 
             {/* Pourquoi il fait ça */}
-            <div className="space-y-4">
+            <div className="space-y-3">
               <p className="text-lg text-stone-700 leading-relaxed font-semibold">
                 Et pourquoi je fais ça ?
               </p>
@@ -134,7 +127,7 @@ const WhoAmI = () => {
 
             {/* Conclusion/invitation */}
             <div className="bg-stone-800 text-white rounded-xl p-6">
-              <p className="text-lg leading-relaxed mb-3">
+              <p className="text-lg leading-relaxed mb-2">
                 Si tu sens que quelque chose t'appelle, t'étrangle ou te pousse à aller voir derrière le décor, 
                 peut-être qu'on a un bout de chemin à faire ensemble.
               </p>
