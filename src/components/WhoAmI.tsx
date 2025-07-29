@@ -36,11 +36,11 @@ const WhoAmI = () => {
           </p>
           
           <p className="mb-4">
-            <span className="text-xl font-bold text-amber-700">Tu t'es déjà demandé ce qu'on fout sur cette terre ?</span>
+            <span className="text-xl font-bold text-amber-700">Qu'est-ce qu'on fait sur cette petite planète bleue ?</span>
           </p>
           
           <p className="mb-4">
-            Moi oui. Trop souvent. C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? On m'a appris le théorème de Pythagore à l'école, mais pas à maitriser mes émotions, à intégrer mes parts d'ombres, à maitriser mon auto-saboteur et mon mental.
+            Moi oui. Très souvent. C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? On m'a appris le théorème de Pythagore à l'école, mais pas à maitriser mes émotions, à intégrer mes parts d'ombres, à maitriser mon auto-saboteur et mon mental.
           </p>
           
           <p className="mb-4 font-semibold">
