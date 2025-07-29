@@ -42,7 +42,7 @@ const services = [
 const Services = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-stone-50 to-amber-50/30">
-      <div id="accompagnements" className="absolute -mt-20"></div>
+      <div id="accompagnements" className="absolute -mt-40"></div>
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
