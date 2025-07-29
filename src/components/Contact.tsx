@@ -5,7 +5,7 @@ import { Video, Mail, Phone, MapPin } from 'lucide-react';
 const Contact = () => {
   return (
     <section className="py-12 bg-gradient-to-br from-stone-50 to-amber-50/30">
-      <div id="contact" className="absolute -mt-20"></div>
+      <div id="contact" className="absolute -mt-32"></div>
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
