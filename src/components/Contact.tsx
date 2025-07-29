@@ -4,9 +4,10 @@ import { Video, Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 bg-gradient-to-br from-stone-50 to-amber-50/30">
+    <section className="py-12 bg-gradient-to-br from-stone-50 to-amber-50/30">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
+          id="contact"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
