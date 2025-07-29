@@ -16,8 +16,7 @@ const Contact = () => {
             Rencontrons-nous
           </h2>
           <p className="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
-            Prêt à explorer votre chemin intérieur ? Commençons par une séance découverte gratuite 
-            pour voir si nous sommes faits pour travailler ensemble.
+            Prêt à explorer votre chemin intérieur ? Explorons vos envies gratuitement par téléphone.
           </p>
           
           <motion.a
@@ -58,7 +57,19 @@ const Contact = () => {
                 <p className="text-stone-600">+32 472 49 88 80</p>
               </div>
             </div>
+
+            <div className="flex items-start space-x-4">
+              <MapPin className="text-amber-600 mt-1" size={20} />
+              <div>
+                <h4 className="font-medium text-stone-800">Adresse</h4>
+                <p className="text-stone-600">63 Rue Nestor Bal, 6032 Mont-sur-Marchienne</p>
+              </div>
+            </div>
           </div>
+
+          <p className="text-stone-600 mb-6 text-center">
+            Réserver votre séance d'accompagnement par message ou via ce lien calendly :
+          </p>
 
           <motion.a
             href="https://calendly.com/michael_matsos/nouvelle-reunion"

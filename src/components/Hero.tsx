@@ -76,17 +76,24 @@ const Hero = () => {
             <div className="flex items-center justify-center mb-4">
               <Video className="text-amber-600 mr-3" size={24} />
               <span className="text-lg font-medium text-stone-800">
-                Séance découverte offerte – 30 min en visio
+                Séance découverte offerte – 30 min par téléphone
               </span>
             </div>
-            <motion.button
+            <motion.a
+              href="#contact"
+              onClick={() => {
+                const element = document.querySelector('#contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-amber-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-amber-600 transition-colors inline-flex items-center space-x-2"
             >
               <span>Rencontrons-nous</span>
               <ArrowRight size={20} />
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>
