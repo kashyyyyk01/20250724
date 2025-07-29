@@ -38,6 +38,7 @@ const Contact = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 max-w-md mx-auto"
         >
+          <div id="contact-info" className="absolute -mt-32"></div>
           <h3 className="text-2xl font-semibold text-stone-800 mb-6 text-center">
             Informations pratiques
           </h3>

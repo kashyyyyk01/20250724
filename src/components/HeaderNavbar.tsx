@@ -19,7 +19,7 @@ const HeaderNavbar = () => {
     { href: '#accueil', label: 'Accueil' },
     { href: '#accompagnements', label: 'Accompagnements' },
     { href: '#qui-suis-je', label: 'Qui suis-je' },
-    { href: '#contact', label: 'Contact' }
+    { href: '#contact-info', label: 'Contact' }
   ];
 
   const scrollToSection = (href: string) => {
