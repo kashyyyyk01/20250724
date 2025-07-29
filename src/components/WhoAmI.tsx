@@ -40,6 +40,10 @@ const WhoAmI = () => {
           </p>
           
           <p className="mb-4">
+            Tu t'es déjà posé la question ?
+          </p>
+          
+          <p className="mb-4">
             Moi oui. Très souvent. C'est quoi, être humain ? Réussir sa vie ? (Comme si on pouvait vraiment la rater.) Comment ça fonctionne, tout ça ? On m'a appris le théorème de Pythagore à l'école, mais pas à maitriser mes émotions, à intégrer mes parts d'ombres, à maitriser mon auto-saboteur et mon mental.
           </p>
           
